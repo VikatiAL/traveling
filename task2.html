@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<body>
+    
+    <header>
+<div class="menu1">
+    <a href="#oproekte">О проекте</a>
+        <a href="#napr">Направления</a>
+        <a href="#plan">Планирование</a>
+        <a href="#cont">Контакты</a></h3>
+</div>
+    </header>
+
+<section>
+           <h1 id="oproekte">О проекте</h1>
+    <h4>
+        <p>Добро пожаловать на сайт Путешествия по России" ! </p>
+        <p>Здесь Вы найдете информацию о самых интересных местах нашей страны.</p>
+        <p>Россия-самая большая страна в мире, и на ее территории расположено множество уникальных природных и культурных достопримечателностей. </p>
+    </h4>
+
+</section>
+
+<section>
+<h1 id="napr">Популярные направления</h1>
+<h2>Топ-5 направлений для путешествий по России:</h2>
+<h4>
+    <ol>
+<p><li>Озеро Байкал</li></p>
+<p><li>Камчатка</li></p>
+<p><li>Золотое кольцо России</li></p>
+<p><li>Алтай</li></p>
+<p><li>Калининградская область</li></p>
+    </ol>
+</h4>
+
+<h2>Сравнение направлений</h2>
+<table border="1">
+<tr>
+    <td><h4>Направление</h4></td>
+    <td><h4>Лушее время для посещения</h4></td>
+    <td><h4>Средняя стоимость поездки</h4></td>
+</tr>
+
+<tr>
+    <td><h4>Озеро Байкал</h4></td>
+    <td><h4>Июль-август</h4></td>
+    <td><h4>30 000 руб.</h4></td>
+</tr>
+
+<tr>
+    <td><h4>Камчаска</h4></td>
+    <td><h4>Июль-сентябрь</h4></td>
+    <td><h4>70 000 руб.</h4></td>
+</tr>
+
+<tr>
+    <td><h4>Золотое кольцо</h4></td>
+    <td><h4>Май-сентябрь</h4></td>
+    <td><h4>20 000 руб.</h4></td>
+</tr>
+
+<tr>
+    <td><h4>Алтай</h4></td>
+    <td><h4>Июнь-август</h4></td>
+    <td><h4>25 000 руб.</h4></td>
+</tr>
+</table>
+
+</section>
+
+<section>
+<h1 >Галерея</h1>
+
+<h2>Озеро Байкал</h2>
+<img src="оз.Байкал.jpg" alt="">
+<h4>Озеро Байкал-самое глубокое озеро в мире</h4>
+
+<h2>Камчатка</h2>
+<img src="Камчатка.jpeg" alt="">
+<h4>Камчатка-край вулканов и гейзеров</h4>
+
+<h2>Алтай</h2>
+<img src="Алтай.jpg" alt="">
+<h4>Алтай-горный край с уникальной приодой</h4>
+
+<h4>Больше фотографий Вы можете найти на наших ресурсах</h4>
+
+<ul>
+<li><a class="images"href="https://yandex.ru/images/search?from=tabbar&text=%D1%84%D0%BE%D1%82%D0%BE%20%D0%B1%D0%B0%D0%B9%D0%BA%D0%B0%D0%BB%D0%B0" target="_blank">Фото Байкала</a> </li> <br>
+<li><a class="images"href="https://yandex.ru/images/search?from=tabbar&text=%D0%A4%D0%BE%D1%82%D0%BE%20%D0%9A%D0%B0%D0%BC%D1%87%D0%B0%D1%82%D0%BA%D0%B8" target="_blank">Фото Камчатки</a> </li> <br>
+<li><a class="images"href="https://yandex.ru/images/search?from=tabbar&text=%D0%A4%D0%BE%D1%82%D0%BE%20%D0%90%D0%BB%D1%82%D0%B0%D1%8F" target="_blank">Фото Алтая</a> </li> <br>
+</ul>
+
+</section>
+
+<section>
+<h1 id="plan">Планирование путешествия</h1>
+
+<form action="#" method="POST">
+
+<h4>Ваше имя:</h4>
+<input type="text" name="username" placeholder="Введите Ваше имя"> <br>
+
+<h4>Email:</h4>
+<input type="email" name="email" placeholder="asdf12@mail.ru"> <br>
+
+<h4>Выберите направление:</h4>
+<select name="city" id="12">
+<option value="placeholder">Выберите направление</option>
+<option value="ozb">Озеро Байкал</option>
+<option value="kam">Камчатка</option>
+<option value="alt">Алтай</option>
+</select>
+
+<h4>Тип путешествия</h4>
+<input type="radio" name="tip" > Индивидуальное <br>
+<input type="radio" name="tip" > Групповое <br>
+
+<h4>Дополнительные услуги:</h4>
+<input type="radio" name="uslugi"> Гид <br>
+<input type="radio" name="uslugi"> Трансфер <br>
+<input type="radio" name="uslugi"> Страховка <br>
+
+<h4>Комментарии и пожелания:</h4>
+<textarea name="message" rows="5" cols="40" id="komment"></textarea> <br>
+
+<input class="kn" type="submit" value="Отправить заявку"> 
+<input class="kn" type="reset" value="Очистить форму"> 
+
+</form>
+</section>
+    
+<section>
+<h1 id="cont"> Контакты</h1>
+<h4>Свяжитесь с нами для получения дополнительной информации</H4>
+<ul>
+<li><h4>Телефон: +7 (999) 123-45-67</h4></li>
+<li><h4>info@travel-russia.ru</h4></li>
+<li><h4>г.Москва, ул. Путешественников, д.10</h4></li>
+</ul>
+</section>
+
+</body>
+
+<footer>
+<div class="prava">
+    <h4> &copy 2023 Путешествия по России. Все права защищены</h4>
+ 
+</div>
+</footer>
+
+</html>
